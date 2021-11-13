@@ -1,0 +1,25 @@
+.repos {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 30px;
+
+  .backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+    width: 150px;
+    height: 25px;
+  }
+
+  .reposCard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+}
